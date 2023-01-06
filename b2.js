@@ -52,8 +52,7 @@ function nhapThongTin(user) {
     user.email = nhapEmail()
     user.sdt = nhapSDT()
 }
-function demNutSDT() {
-    let numbr = nhapSDT()
+function demNutSDT(numbr) {
     let tong = 0;
     for(let i = 0;i < numbr.length;++i)
     {
